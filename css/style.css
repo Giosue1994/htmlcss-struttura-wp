@@ -1,0 +1,63 @@
+/* __________________________ RESET __________________________ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* __________________________ FINE RESET __________________________ */
+.container {
+  margin: 10px;
+}
+
+header {
+  background: yellow;
+  height: 150px;
+}
+
+main {
+  margin: 10px 0;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main .box {
+  float: left;
+}
+
+main .uno, .due {
+  margin-right: 2%;
+}
+
+main .uno {
+  background: pink;
+  width: 20%;
+  height: 350px;
+}
+
+main .due {
+  background: purple;
+  width: 56%;
+  height: 600px;
+}
+
+main .tre {
+  background: pink;
+  width: 20%;
+  height: 275px;
+  margin-bottom: 20px;
+}
+main .quattro {
+  background: red;
+  width: 20%;
+  height: 275px;
+}
+
+footer {
+  background: cyan;
+  width: 100%;
+  height: 75px;
+}
